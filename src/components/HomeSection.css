@@ -1,0 +1,41 @@
+#home {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+.home-box {
+    width: 80%;
+    display: flex;
+    margin: 2rem auto;
+    justify-content: space-evenly;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex: 0 1 45rem;
+    gap: 1rem;
+}
+
+.home-container h1, .home-container p{
+        text-align: left;
+}
+.home-image{
+    justify-content: center;
+    display: flex;
+}
+.home-image img {
+    max-width: 25rem;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.home-image img:hover {
+    scale: 1.1;
+
+}
+

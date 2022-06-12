@@ -1,0 +1,47 @@
+.categories {
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    margin: 3rem 1rem;
+}
+
+.box {
+ 
+    width: 25rem;
+    height: 15.5rem;
+    justify-items: center;
+    display: grid;
+    align-items: center;
+
+   
+}
+
+.box img {
+    width: 20rem;
+    height: 15.5rem;
+    display: block;
+    position: absolute;
+    transition: all 0.5s ease;
+
+    background-color: transparent;
+}
+
+.catergories-container {
+    display: grid;
+    margin: 5rem 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    width: 100rem;
+    height: 100%;
+    justify-items: center;
+}
+
+.box img:hover {
+    width: 17.5rem;
+    height: 13rem;
+}

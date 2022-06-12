@@ -1,0 +1,108 @@
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 30rem;
+    width: 37.5rem;
+}
+
+.mapouter {
+    width: 37.5rem;
+    margin: 2rem;
+    border: 1px inset rgb(110, 142, 230);
+
+}
+
+iframe {
+    width: 37.5rem;
+    height: 30rem;
+}
+
+#contact {
+    display: flex;
+    background-color: var(--hover--);
+}
+
+
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    top: -2rem;
+
+
+}
+
+.contact-container {
+    width: 62.5rem;
+    height: inherit;
+    background-color: var(--maincolor--);
+    justify-content: center;
+    position: relative;
+    display: grid;
+
+}
+
+.contact-text {
+    width: 100%;
+    display: grid;
+    height: fit-content;
+    top: 2.5rem;
+    position: relative;
+    gap:1rem 0;
+
+}
+
+.contact-text hr{
+color: rgb(212, 212, 212);
+}
+
+.contact-text p{
+    text-align: center;
+    font-size: 1.25rem;
+
+}
+
+.contact-box {
+    display: flex;
+    border: 0.3rem inset rgb(110, 142, 230);
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    align-items: center;
+    min-width: 25rem;
+    transition: all 0.1s ease-in-out;
+    background-color: aliceblue;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.contact-box a {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-box img {
+    width: 1.5rem;
+}
+
+.contact-box i {
+    font-size: 1.5rem;
+}
+
+.contact-box p {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-optical-sizing: 4em;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-box p:hover,
+.contact-box:hover {
+    color: rgb(101, 98, 255);
+
+}

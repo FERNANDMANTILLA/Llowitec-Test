@@ -1,0 +1,57 @@
+footer{
+padding: 1rem 5rem;
+}
+
+.grid-footer{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 20em 20rem 20rem 20em;
+    gap: 0 2.5rem;
+}
+
+.row-footer li{
+    list-style: none;
+}
+
+.grid-footer .title{
+    color: var(--hover--);
+   font-size: 1.25rem;
+ 
+}
+
+.grid-footer .subtitle{
+    color: var(--textcolor--);
+   font-size: 1.44rem;
+   
+}
+
+.row-content{
+gap: 1.5rem;
+display: flex;
+flex-direction: column;
+}
+
+input{
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 22rem;
+    background-color: #fff;
+    font-size: 1.1rem;
+    border-radius: .5rem;
+    border: .15rem inset var(--textcolor--);
+}
+
+button{
+    border: none;
+    border-radius: .5rem;
+    background-color: var(--textcolor--);
+    color: #fff;
+    padding: 0.5rem 2rem; 
+    font-size: 1.25rem;
+    width: 15rem;
+
+}
+
+.grid-footer .terms{
+    font-size:0.75rem;
+}

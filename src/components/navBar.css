@@ -1,0 +1,33 @@
+.menu-icon{
+    font-size: 2.5rem;
+    color: rgb(243, 243, 243);
+    display: none;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    border: 1px inset rgb(53, 91, 175);
+    padding: 0.5rem 1rem;
+    background-color: rgba(240, 248, 255, 0.192);
+    border-radius: 1rem;
+}
+
+.menu-icon:hover{
+    color: #1564ad;
+ 
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+
+}
+
+@media  (max-width: 700px){
+    .nav-links{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        position: relative;
+    }
+}
+    

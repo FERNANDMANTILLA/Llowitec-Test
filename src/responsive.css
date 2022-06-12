@@ -1,0 +1,21 @@
+@media (max-width:700px){
+    .home-box{
+        flex-direction: column;
+    }
+    .home-container{
+        flex: 0 1 10rem;
+    }
+    .home-container h1, .home-container p{
+        text-align: center;
+    }
+
+    .row ul {
+       width: 100%;
+    }
+
+    nav .logo img {
+        scale: 1.35;
+     
+     }
+
+}
